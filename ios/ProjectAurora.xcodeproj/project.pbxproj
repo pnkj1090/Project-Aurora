@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA0000022900000100000001 /* ProjectAuroraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000022900000100000001 /* ProjectAuroraApp.swift */; };
+		AA0000032900000100000001 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000032900000100000001 /* AppConfig.swift */; };
+		AA0000042900000100000001 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000042900000100000001 /* APIModels.swift */; };
+		AA0000052900000100000001 /* AgendaModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000052900000100000001 /* AgendaModels.swift */; };
+		AA0000062900000100000001 /* AssetModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000062900000100000001 /* AssetModels.swift */; };
+		AA0000072900000100000001 /* CalendarModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000072900000100000001 /* CalendarModels.swift */; };
+		AA0000082900000100000001 /* CommitmentModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000082900000100000001 /* CommitmentModels.swift */; };
+		AA0000092900000100000001 /* ContactModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000092900000100000001 /* ContactModels.swift */; };
+		AA0000102900000100000001 /* ContextModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000102900000100000001 /* ContextModels.swift */; };
+		AA0000112900000100000001 /* CoordinationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000112900000100000001 /* CoordinationModels.swift */; };
+		AA0000122900000100000001 /* DiurnalHorizonModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000122900000100000001 /* DiurnalHorizonModels.swift */; };
+		AA0000132900000100000001 /* EventBriefingClientModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000132900000100000001 /* EventBriefingClientModels.swift */; };
+		AA0000142900000100000001 /* IdentityModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000142900000100000001 /* IdentityModels.swift */; };
+		AA0000152900000100000001 /* LocationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000152900000100000001 /* LocationModels.swift */; };
+		AA0000162900000100000001 /* MemoryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000162900000100000001 /* MemoryModels.swift */; };
+		AA0000172900000100000001 /* PermissionModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000172900000100000001 /* PermissionModels.swift */; };
+		AA0000182900000100000001 /* ProactiveModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000182900000100000001 /* ProactiveModels.swift */; };
+		AA0000192900000100000001 /* ReminderModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000192900000100000001 /* ReminderModels.swift */; };
+		AA0000202900000100000001 /* ScheduleDisruptionDiagnosticModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000202900000100000001 /* ScheduleDisruptionDiagnosticModels.swift */; };
+		AA0000212900000100000001 /* ScheduleRecoveryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000212900000100000001 /* ScheduleRecoveryModels.swift */; };
+		AA0000222900000100000001 /* TaskModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000222900000100000001 /* TaskModels.swift */; };
+		AA0000232900000100000001 /* VoiceModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000232900000100000001 /* VoiceModels.swift */; };
+		AA0000242900000100000001 /* WeeklyHorizonClientModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000242900000100000001 /* WeeklyHorizonClientModels.swift */; };
+		AA0000252900000100000001 /* WeeklyHorizonModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000252900000100000001 /* WeeklyHorizonModels.swift */; };
+		AA0000262900000100000001 /* AuroraAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000262900000100000001 /* AuroraAPIClient.swift */; };
+		AA0000272900000100000001 /* CalendarProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000272900000100000001 /* CalendarProvider.swift */; };
+		AA0000282900000100000001 /* ContactsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000282900000100000001 /* ContactsProvider.swift */; };
+		AA0000292900000100000001 /* DeepLinkNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000292900000100000001 /* DeepLinkNavigator.swift */; };
+		AA0000302900000100000001 /* FileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000302900000100000001 /* FileProvider.swift */; };
+		AA0000312900000100000001 /* KeychainCredentialStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000312900000100000001 /* KeychainCredentialStore.swift */; };
+		AA0000322900000100000001 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000322900000100000001 /* LocationProvider.swift */; };
+		AA0000332900000100000001 /* NotificationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000332900000100000001 /* NotificationProvider.swift */; };
+		AA0000342900000100000001 /* PhotoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000342900000100000001 /* PhotoProvider.swift */; };
+		AA0000352900000100000001 /* SpeechCaptureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000352900000100000001 /* SpeechCaptureManager.swift */; };
+		AA0000362900000100000001 /* SpeechOutputManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000362900000100000001 /* SpeechOutputManager.swift */; };
+		AA0000372900000100000001 /* VoiceConfirmationInterpreter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000372900000100000001 /* VoiceConfirmationInterpreter.swift */; };
+		AA0000382900000100000001 /* VoiceSessionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000382900000100000001 /* VoiceSessionCoordinator.swift */; };
+		AA0000392900000100000001 /* AgendaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000392900000100000001 /* AgendaViewModel.swift */; };
+		AA0000402900000100000001 /* AssetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000402900000100000001 /* AssetViewModel.swift */; };
+		AA0000412900000100000001 /* AssistantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000412900000100000001 /* AssistantViewModel.swift */; };
+		AA0000422900000100000001 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000422900000100000001 /* CalendarViewModel.swift */; };
+		AA0000432900000100000001 /* CommitmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000432900000100000001 /* CommitmentViewModel.swift */; };
+		AA0000442900000100000001 /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000442900000100000001 /* ContactViewModel.swift */; };
+		AA0000452900000100000001 /* EventBriefingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000452900000100000001 /* EventBriefingViewModel.swift */; };
+		AA0000462900000100000001 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000462900000100000001 /* LocationViewModel.swift */; };
+		AA0000472900000100000001 /* MemoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000472900000100000001 /* MemoryViewModel.swift */; };
+		AA0000482900000100000001 /* ReminderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000482900000100000001 /* ReminderViewModel.swift */; };
+		AA0000492900000100000001 /* ScheduleCoordinationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000492900000100000001 /* ScheduleCoordinationViewModel.swift */; };
+		AA0000502900000100000001 /* ScheduleDisruptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000502900000100000001 /* ScheduleDisruptionViewModel.swift */; };
+		AA0000512900000100000001 /* ScheduleRecoveryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000512900000100000001 /* ScheduleRecoveryViewModel.swift */; };
+		AA0000522900000100000001 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000522900000100000001 /* TaskViewModel.swift */; };
+		AA0000532900000100000001 /* WeeklyHorizonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000532900000100000001 /* WeeklyHorizonViewModel.swift */; };
+		AA0000542900000100000001 /* AgendaTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000542900000100000001 /* AgendaTimelineView.swift */; };
+		AA0000552900000100000001 /* CalendarStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000552900000100000001 /* CalendarStatusView.swift */; };
+		AA0000562900000100000001 /* CommitmentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000562900000100000001 /* CommitmentDetailView.swift */; };
+		AA0000572900000100000001 /* CommitmentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000572900000100000001 /* CommitmentListView.swift */; };
+		AA0000582900000100000001 /* ContactsStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000582900000100000001 /* ContactsStatusView.swift */; };
+		AA0000592900000100000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000592900000100000001 /* ContentView.swift */; };
+		AA0000602900000100000001 /* CreateCommitmentSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000602900000100000001 /* CreateCommitmentSheet.swift */; };
+		AA0000612900000100000001 /* CreateMemorySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000612900000100000001 /* CreateMemorySheet.swift */; };
+		AA0000622900000100000001 /* CreateReminderSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000622900000100000001 /* CreateReminderSheet.swift */; };
+		AA0000632900000100000001 /* CreateTaskSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000632900000100000001 /* CreateTaskSheet.swift */; };
+		AA0000642900000100000001 /* DayPlanSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000642900000100000001 /* DayPlanSheet.swift */; };
+		AA0000652900000100000001 /* EveningReviewSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000652900000100000001 /* EveningReviewSheet.swift */; };
+		AA0000662900000100000001 /* EventBriefingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000662900000100000001 /* EventBriefingSheet.swift */; };
+		AA0000672900000100000001 /* EventDebriefSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000672900000100000001 /* EventDebriefSheet.swift */; };
+		AA0000682900000100000001 /* IdentitySetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000682900000100000001 /* IdentitySetupView.swift */; };
+		AA0000692900000100000001 /* LocationStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000692900000100000001 /* LocationStatusView.swift */; };
+		AA0000702900000100000001 /* MediaSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000702900000100000001 /* MediaSelectionView.swift */; };
+		AA0000712900000100000001 /* MemoryCandidateReviewSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000712900000100000001 /* MemoryCandidateReviewSheet.swift */; };
+		AA0000722900000100000001 /* MemoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000722900000100000001 /* MemoryDetailView.swift */; };
+		AA0000732900000100000001 /* MemoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000732900000100000001 /* MemoryListView.swift */; };
+		AA0000742900000100000001 /* ProactiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000742900000100000001 /* ProactiveView.swift */; };
+		AA0000752900000100000001 /* ReminderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000752900000100000001 /* ReminderDetailView.swift */; };
+		AA0000762900000100000001 /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000762900000100000001 /* ReminderListView.swift */; };
+		AA0000772900000100000001 /* ScheduleCoordinationSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000772900000100000001 /* ScheduleCoordinationSheet.swift */; };
+		AA0000782900000100000001 /* ScheduleDisruptionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000782900000100000001 /* ScheduleDisruptionSheet.swift */; };
+		AA0000792900000100000001 /* ScheduleRecoveryProposalSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000792900000100000001 /* ScheduleRecoveryProposalSheet.swift */; };
+		AA0000802900000100000001 /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000802900000100000001 /* TaskDetailView.swift */; };
+		AA0000812900000100000001 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000812900000100000001 /* TaskListView.swift */; };
+		AA0000822900000100000001 /* VoiceInteractionBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000822900000100000001 /* VoiceInteractionBarView.swift */; };
+		AA0000832900000100000001 /* WeeklyHorizonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000832900000100000001 /* WeeklyHorizonView.swift */; };
+		AA0000842900000100000001 /* WeeklyPlanSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000842900000100000001 /* WeeklyPlanSheet.swift */; };
+		AA0000852900000100000001 /* WeeklyRetrospectiveSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000852900000100000001 /* WeeklyRetrospectiveSheet.swift */; };
+		AA0000862900000100000001 /* AuroraIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000862900000100000001 /* AuroraIntents.swift */; };
+		AA0000872900000100000001 /* AuroraShortcutsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000872900000100000001 /* AuroraShortcutsProvider.swift */; };
+		AT0000012900000100000001 /* AppleSystemIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BT0000012900000100000001 /* AppleSystemIntegrationTests.swift */; };
+		AT0000022900000100000001 /* DiurnalHorizonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BT0000022900000100000001 /* DiurnalHorizonTests.swift */; };
+		AT0000032900000100000001 /* EventBriefingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BT0000032900000100000001 /* EventBriefingTests.swift */; };
+		AT0000042900000100000001 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BT0000042900000100000001 /* MockURLProtocol.swift */; };
+		AT0000052900000100000001 /* ScheduleCoordinationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BT0000052900000100000001 /* ScheduleCoordinationTests.swift */; };
+		AT0000062900000100000001 /* ScheduleRecoveryLifecycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BT0000062900000100000001 /* ScheduleRecoveryLifecycleTests.swift */; };
+		AT0000072900000100000001 /* VoiceConversationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BT0000072900000100000001 /* VoiceConversationTests.swift */; };
+		AT0000082900000100000001 /* VoiceFoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BT0000082900000100000001 /* VoiceFoundationTests.swift */; };
+		AT0000092900000100000001 /* WeeklyHorizonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BT0000092900000100000001 /* WeeklyHorizonTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		KK0000012900000100000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000012900000100000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF0000012900000100000001;
+			remoteInfo = ProjectAurora;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB0000012900000100000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB0000022900000100000001 /* ProjectAuroraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectAuroraApp.swift; sourceTree = "<group>"; };
+		BB0000032900000100000001 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		BB0000042900000100000001 /* APIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
+		BB0000052900000100000001 /* AgendaModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaModels.swift; sourceTree = "<group>"; };
+		BB0000062900000100000001 /* AssetModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetModels.swift; sourceTree = "<group>"; };
+		BB0000072900000100000001 /* CalendarModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModels.swift; sourceTree = "<group>"; };
+		BB0000082900000100000001 /* CommitmentModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitmentModels.swift; sourceTree = "<group>"; };
+		BB0000092900000100000001 /* ContactModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModels.swift; sourceTree = "<group>"; };
+		BB0000102900000100000001 /* ContextModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextModels.swift; sourceTree = "<group>"; };
+		BB0000112900000100000001 /* CoordinationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinationModels.swift; sourceTree = "<group>"; };
+		BB0000122900000100000001 /* DiurnalHorizonModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiurnalHorizonModels.swift; sourceTree = "<group>"; };
+		BB0000132900000100000001 /* EventBriefingClientModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventBriefingClientModels.swift; sourceTree = "<group>"; };
+		BB0000142900000100000001 /* IdentityModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityModels.swift; sourceTree = "<group>"; };
+		BB0000152900000100000001 /* LocationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModels.swift; sourceTree = "<group>"; };
+		BB0000162900000100000001 /* MemoryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryModels.swift; sourceTree = "<group>"; };
+		BB0000172900000100000001 /* PermissionModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionModels.swift; sourceTree = "<group>"; };
+		BB0000182900000100000001 /* ProactiveModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProactiveModels.swift; sourceTree = "<group>"; };
+		BB0000192900000100000001 /* ReminderModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderModels.swift; sourceTree = "<group>"; };
+		BB0000202900000100000001 /* ScheduleDisruptionDiagnosticModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDisruptionDiagnosticModels.swift; sourceTree = "<group>"; };
+		BB0000212900000100000001 /* ScheduleRecoveryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRecoveryModels.swift; sourceTree = "<group>"; };
+		BB0000222900000100000001 /* TaskModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModels.swift; sourceTree = "<group>"; };
+		BB0000232900000100000001 /* VoiceModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceModels.swift; sourceTree = "<group>"; };
+		BB0000242900000100000001 /* WeeklyHorizonClientModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyHorizonClientModels.swift; sourceTree = "<group>"; };
+		BB0000252900000100000001 /* WeeklyHorizonModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyHorizonModels.swift; sourceTree = "<group>"; };
+		BB0000262900000100000001 /* AuroraAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuroraAPIClient.swift; sourceTree = "<group>"; };
+		BB0000272900000100000001 /* CalendarProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarProvider.swift; sourceTree = "<group>"; };
+		BB0000282900000100000001 /* ContactsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsProvider.swift; sourceTree = "<group>"; };
+		BB0000292900000100000001 /* DeepLinkNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkNavigator.swift; sourceTree = "<group>"; };
+		BB0000302900000100000001 /* FileProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProvider.swift; sourceTree = "<group>"; };
+		BB0000312900000100000001 /* KeychainCredentialStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainCredentialStore.swift; sourceTree = "<group>"; };
+		BB0000322900000100000001 /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
+		BB0000332900000100000001 /* NotificationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationProvider.swift; sourceTree = "<group>"; };
+		BB0000342900000100000001 /* PhotoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoProvider.swift; sourceTree = "<group>"; };
+		BB0000352900000100000001 /* SpeechCaptureManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechCaptureManager.swift; sourceTree = "<group>"; };
+		BB0000362900000100000001 /* SpeechOutputManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechOutputManager.swift; sourceTree = "<group>"; };
+		BB0000372900000100000001 /* VoiceConfirmationInterpreter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceConfirmationInterpreter.swift; sourceTree = "<group>"; };
+		BB0000382900000100000001 /* VoiceSessionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceSessionCoordinator.swift; sourceTree = "<group>"; };
+		BB0000392900000100000001 /* AgendaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaViewModel.swift; sourceTree = "<group>"; };
+		BB0000402900000100000001 /* AssetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetViewModel.swift; sourceTree = "<group>"; };
+		BB0000412900000100000001 /* AssistantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantViewModel.swift; sourceTree = "<group>"; };
+		BB0000422900000100000001 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		BB0000432900000100000001 /* CommitmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitmentViewModel.swift; sourceTree = "<group>"; };
+		BB0000442900000100000001 /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
+		BB0000452900000100000001 /* EventBriefingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventBriefingViewModel.swift; sourceTree = "<group>"; };
+		BB0000462900000100000001 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		BB0000472900000100000001 /* MemoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryViewModel.swift; sourceTree = "<group>"; };
+		BB0000482900000100000001 /* ReminderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewModel.swift; sourceTree = "<group>"; };
+		BB0000492900000100000001 /* ScheduleCoordinationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCoordinationViewModel.swift; sourceTree = "<group>"; };
+		BB0000502900000100000001 /* ScheduleDisruptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDisruptionViewModel.swift; sourceTree = "<group>"; };
+		BB0000512900000100000001 /* ScheduleRecoveryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRecoveryViewModel.swift; sourceTree = "<group>"; };
+		BB0000522900000100000001 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		BB0000532900000100000001 /* WeeklyHorizonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyHorizonViewModel.swift; sourceTree = "<group>"; };
+		BB0000542900000100000001 /* AgendaTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaTimelineView.swift; sourceTree = "<group>"; };
+		BB0000552900000100000001 /* CalendarStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarStatusView.swift; sourceTree = "<group>"; };
+		BB0000562900000100000001 /* CommitmentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitmentDetailView.swift; sourceTree = "<group>"; };
+		BB0000572900000100000001 /* CommitmentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitmentListView.swift; sourceTree = "<group>"; };
+		BB0000582900000100000001 /* ContactsStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsStatusView.swift; sourceTree = "<group>"; };
+		BB0000592900000100000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB0000602900000100000001 /* CreateCommitmentSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCommitmentSheet.swift; sourceTree = "<group>"; };
+		BB0000612900000100000001 /* CreateMemorySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMemorySheet.swift; sourceTree = "<group>"; };
+		BB0000622900000100000001 /* CreateReminderSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateReminderSheet.swift; sourceTree = "<group>"; };
+		BB0000632900000100000001 /* CreateTaskSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskSheet.swift; sourceTree = "<group>"; };
+		BB0000642900000100000001 /* DayPlanSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPlanSheet.swift; sourceTree = "<group>"; };
+		BB0000652900000100000001 /* EveningReviewSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EveningReviewSheet.swift; sourceTree = "<group>"; };
+		BB0000662900000100000001 /* EventBriefingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventBriefingSheet.swift; sourceTree = "<group>"; };
+		BB0000672900000100000001 /* EventDebriefSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDebriefSheet.swift; sourceTree = "<group>"; };
+		BB0000682900000100000001 /* IdentitySetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentitySetupView.swift; sourceTree = "<group>"; };
+		BB0000692900000100000001 /* LocationStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationStatusView.swift; sourceTree = "<group>"; };
+		BB0000702900000100000001 /* MediaSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaSelectionView.swift; sourceTree = "<group>"; };
+		BB0000712900000100000001 /* MemoryCandidateReviewSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCandidateReviewSheet.swift; sourceTree = "<group>"; };
+		BB0000722900000100000001 /* MemoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryDetailView.swift; sourceTree = "<group>"; };
+		BB0000732900000100000001 /* MemoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryListView.swift; sourceTree = "<group>"; };
+		BB0000742900000100000001 /* ProactiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProactiveView.swift; sourceTree = "<group>"; };
+		BB0000752900000100000001 /* ReminderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailView.swift; sourceTree = "<group>"; };
+		BB0000762900000100000001 /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
+		BB0000772900000100000001 /* ScheduleCoordinationSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCoordinationSheet.swift; sourceTree = "<group>"; };
+		BB0000782900000100000001 /* ScheduleDisruptionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDisruptionSheet.swift; sourceTree = "<group>"; };
+		BB0000792900000100000001 /* ScheduleRecoveryProposalSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRecoveryProposalSheet.swift; sourceTree = "<group>"; };
+		BB0000802900000100000001 /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
+		BB0000812900000100000001 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		BB0000822900000100000001 /* VoiceInteractionBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceInteractionBarView.swift; sourceTree = "<group>"; };
+		BB0000832900000100000001 /* WeeklyHorizonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyHorizonView.swift; sourceTree = "<group>"; };
+		BB0000842900000100000001 /* WeeklyPlanSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyPlanSheet.swift; sourceTree = "<group>"; };
+		BB0000852900000100000001 /* WeeklyRetrospectiveSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyRetrospectiveSheet.swift; sourceTree = "<group>"; };
+		BB0000862900000100000001 /* AuroraIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuroraIntents.swift; sourceTree = "<group>"; };
+		BB0000872900000100000001 /* AuroraShortcutsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuroraShortcutsProvider.swift; sourceTree = "<group>"; };
+		BT0000012900000100000001 /* AppleSystemIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSystemIntegrationTests.swift; sourceTree = "<group>"; };
+		BT0000022900000100000001 /* DiurnalHorizonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiurnalHorizonTests.swift; sourceTree = "<group>"; };
+		BT0000032900000100000001 /* EventBriefingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventBriefingTests.swift; sourceTree = "<group>"; };
+		BT0000042900000100000001 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		BT0000052900000100000001 /* ScheduleCoordinationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCoordinationTests.swift; sourceTree = "<group>"; };
+		BT0000062900000100000001 /* ScheduleRecoveryLifecycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRecoveryLifecycleTests.swift; sourceTree = "<group>"; };
+		BT0000072900000100000001 /* VoiceConversationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceConversationTests.swift; sourceTree = "<group>"; };
+		BT0000082900000100000001 /* VoiceFoundationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceFoundationTests.swift; sourceTree = "<group>"; };
+		BT0000092900000100000001 /* WeeklyHorizonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyHorizonTests.swift; sourceTree = "<group>"; };
+		CC0000012900000100000001 /* ProjectAurora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectAurora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0000022900000100000001 /* ProjectAuroraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectAuroraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD0000012900000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0000022900000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE0000012900000100000001 = {
+			isa = PBXGroup;
+			children = (
+				EE0000022900000100000001 /* ProjectAurora */,
+				EE0000092900000100000001 /* ProjectAuroraTests */,
+				EE0000032900000100000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE0000022900000100000001 /* ProjectAurora */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000022900000100000001 /* ProjectAuroraApp.swift */,
+				EE0000042900000100000001 /* Config */,
+				EE0000102900000100000001 /* Intents */,
+				EE0000052900000100000001 /* Models */,
+				EE0000062900000100000001 /* Services */,
+				EE0000072900000100000001 /* ViewModels */,
+				EE0000082900000100000001 /* Views */,
+				BB0000012900000100000001 /* Info.plist */,
+			);
+			path = ProjectAurora;
+			sourceTree = "<group>";
+		};
+		EE0000102900000100000001 /* Intents */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000862900000100000001 /* AuroraIntents.swift */,
+				BB0000872900000100000001 /* AuroraShortcutsProvider.swift */,
+			);
+			path = Intents;
+			sourceTree = "<group>";
+		};
+		EE0000042900000100000001 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000032900000100000001 /* AppConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		EE0000052900000100000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000042900000100000001 /* APIModels.swift */,
+				BB0000052900000100000001 /* AgendaModels.swift */,
+				BB0000062900000100000001 /* AssetModels.swift */,
+				BB0000072900000100000001 /* CalendarModels.swift */,
+				BB0000082900000100000001 /* CommitmentModels.swift */,
+				BB0000092900000100000001 /* ContactModels.swift */,
+				BB0000102900000100000001 /* ContextModels.swift */,
+				BB0000112900000100000001 /* CoordinationModels.swift */,
+				BB0000122900000100000001 /* DiurnalHorizonModels.swift */,
+				BB0000132900000100000001 /* EventBriefingClientModels.swift */,
+				BB0000142900000100000001 /* IdentityModels.swift */,
+				BB0000152900000100000001 /* LocationModels.swift */,
+				BB0000162900000100000001 /* MemoryModels.swift */,
+				BB0000172900000100000001 /* PermissionModels.swift */,
+				BB0000182900000100000001 /* ProactiveModels.swift */,
+				BB0000192900000100000001 /* ReminderModels.swift */,
+				BB0000202900000100000001 /* ScheduleDisruptionDiagnosticModels.swift */,
+				BB0000212900000100000001 /* ScheduleRecoveryModels.swift */,
+				BB0000222900000100000001 /* TaskModels.swift */,
+				BB0000232900000100000001 /* VoiceModels.swift */,
+				BB0000242900000100000001 /* WeeklyHorizonClientModels.swift */,
+				BB0000252900000100000001 /* WeeklyHorizonModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE0000062900000100000001 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000262900000100000001 /* AuroraAPIClient.swift */,
+				BB0000272900000100000001 /* CalendarProvider.swift */,
+				BB0000282900000100000001 /* ContactsProvider.swift */,
+				BB0000292900000100000001 /* DeepLinkNavigator.swift */,
+				BB0000302900000100000001 /* FileProvider.swift */,
+				BB0000312900000100000001 /* KeychainCredentialStore.swift */,
+				BB0000322900000100000001 /* LocationProvider.swift */,
+				BB0000332900000100000001 /* NotificationProvider.swift */,
+				BB0000342900000100000001 /* PhotoProvider.swift */,
+				BB0000352900000100000001 /* SpeechCaptureManager.swift */,
+				BB0000362900000100000001 /* SpeechOutputManager.swift */,
+				BB0000372900000100000001 /* VoiceConfirmationInterpreter.swift */,
+				BB0000382900000100000001 /* VoiceSessionCoordinator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EE0000072900000100000001 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000392900000100000001 /* AgendaViewModel.swift */,
+				BB0000402900000100000001 /* AssetViewModel.swift */,
+				BB0000412900000100000001 /* AssistantViewModel.swift */,
+				BB0000422900000100000001 /* CalendarViewModel.swift */,
+				BB0000432900000100000001 /* CommitmentViewModel.swift */,
+				BB0000442900000100000001 /* ContactViewModel.swift */,
+				BB0000452900000100000001 /* EventBriefingViewModel.swift */,
+				BB0000462900000100000001 /* LocationViewModel.swift */,
+				BB0000472900000100000001 /* MemoryViewModel.swift */,
+				BB0000482900000100000001 /* ReminderViewModel.swift */,
+				BB0000492900000100000001 /* ScheduleCoordinationViewModel.swift */,
+				BB0000502900000100000001 /* ScheduleDisruptionViewModel.swift */,
+				BB0000512900000100000001 /* ScheduleRecoveryViewModel.swift */,
+				BB0000522900000100000001 /* TaskViewModel.swift */,
+				BB0000532900000100000001 /* WeeklyHorizonViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EE0000082900000100000001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000542900000100000001 /* AgendaTimelineView.swift */,
+				BB0000552900000100000001 /* CalendarStatusView.swift */,
+				BB0000562900000100000001 /* CommitmentDetailView.swift */,
+				BB0000572900000100000001 /* CommitmentListView.swift */,
+				BB0000582900000100000001 /* ContactsStatusView.swift */,
+				BB0000592900000100000001 /* ContentView.swift */,
+				BB0000602900000100000001 /* CreateCommitmentSheet.swift */,
+				BB0000612900000100000001 /* CreateMemorySheet.swift */,
+				BB0000622900000100000001 /* CreateReminderSheet.swift */,
+				BB0000632900000100000001 /* CreateTaskSheet.swift */,
+				BB0000642900000100000001 /* DayPlanSheet.swift */,
+				BB0000652900000100000001 /* EveningReviewSheet.swift */,
+				BB0000662900000100000001 /* EventBriefingSheet.swift */,
+				BB0000672900000100000001 /* EventDebriefSheet.swift */,
+				BB0000682900000100000001 /* IdentitySetupView.swift */,
+				BB0000692900000100000001 /* LocationStatusView.swift */,
+				BB0000702900000100000001 /* MediaSelectionView.swift */,
+				BB0000712900000100000001 /* MemoryCandidateReviewSheet.swift */,
+				BB0000722900000100000001 /* MemoryDetailView.swift */,
+				BB0000732900000100000001 /* MemoryListView.swift */,
+				BB0000742900000100000001 /* ProactiveView.swift */,
+				BB0000752900000100000001 /* ReminderDetailView.swift */,
+				BB0000762900000100000001 /* ReminderListView.swift */,
+				BB0000772900000100000001 /* ScheduleCoordinationSheet.swift */,
+				BB0000782900000100000001 /* ScheduleDisruptionSheet.swift */,
+				BB0000792900000100000001 /* ScheduleRecoveryProposalSheet.swift */,
+				BB0000802900000100000001 /* TaskDetailView.swift */,
+				BB0000812900000100000001 /* TaskListView.swift */,
+				BB0000822900000100000001 /* VoiceInteractionBarView.swift */,
+				BB0000832900000100000001 /* WeeklyHorizonView.swift */,
+				BB0000842900000100000001 /* WeeklyPlanSheet.swift */,
+				BB0000852900000100000001 /* WeeklyRetrospectiveSheet.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE0000092900000100000001 /* ProjectAuroraTests */ = {
+			isa = PBXGroup;
+			children = (
+				BT0000012900000100000001 /* AppleSystemIntegrationTests.swift */,
+				BT0000022900000100000001 /* DiurnalHorizonTests.swift */,
+				BT0000032900000100000001 /* EventBriefingTests.swift */,
+				BT0000042900000100000001 /* MockURLProtocol.swift */,
+				BT0000052900000100000001 /* ScheduleCoordinationTests.swift */,
+				BT0000062900000100000001 /* ScheduleRecoveryLifecycleTests.swift */,
+				BT0000072900000100000001 /* VoiceConversationTests.swift */,
+				BT0000082900000100000001 /* VoiceFoundationTests.swift */,
+				BT0000092900000100000001 /* WeeklyHorizonTests.swift */,
+			);
+			path = ProjectAuroraTests;
+			sourceTree = "<group>";
+		};
+		EE0000032900000100000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC0000012900000100000001 /* ProjectAurora.app */,
+				CC0000022900000100000001 /* ProjectAuroraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF0000012900000100000001 /* ProjectAurora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = GG0000012900000100000001 /* Build configuration list for PBXNativeTarget "ProjectAurora" */;
+			buildPhases = (
+				HH0000012900000100000001 /* Sources */,
+				DD0000012900000100000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectAurora;
+			productName = ProjectAurora;
+			productReference = CC0000012900000100000001 /* ProjectAurora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF0000022900000100000001 /* ProjectAuroraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = GG0000022900000100000001 /* Build configuration list for PBXNativeTarget "ProjectAuroraTests" */;
+			buildPhases = (
+				HH0000022900000100000001 /* Sources */,
+				DD0000022900000100000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				JJ0000012900000100000001 /* PBXTargetDependency */,
+			);
+			name = ProjectAuroraTests;
+			productName = ProjectAuroraTests;
+			productReference = CC0000022900000100000001 /* ProjectAuroraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000012900000100000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FF0000012900000100000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					FF0000022900000100000001 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = FF0000012900000100000001;
+					};
+				};
+			};
+			buildConfigurationList = 000000022900000100000001 /* Build configuration list for PBXProject "ProjectAurora" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE0000012900000100000001;
+			productRefGroup = EE0000032900000100000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF0000012900000100000001 /* ProjectAurora */,
+				FF0000022900000100000001 /* ProjectAuroraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		HH0000012900000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000022900000100000001 /* ProjectAuroraApp.swift in Sources */,
+				AA0000032900000100000001 /* AppConfig.swift in Sources */,
+				AA0000042900000100000001 /* APIModels.swift in Sources */,
+				AA0000052900000100000001 /* AgendaModels.swift in Sources */,
+				AA0000062900000100000001 /* AssetModels.swift in Sources */,
+				AA0000072900000100000001 /* CalendarModels.swift in Sources */,
+				AA0000082900000100000001 /* CommitmentModels.swift in Sources */,
+				AA0000092900000100000001 /* ContactModels.swift in Sources */,
+				AA0000102900000100000001 /* ContextModels.swift in Sources */,
+				AA0000112900000100000001 /* CoordinationModels.swift in Sources */,
+				AA0000122900000100000001 /* DiurnalHorizonModels.swift in Sources */,
+				AA0000132900000100000001 /* EventBriefingClientModels.swift in Sources */,
+				AA0000142900000100000001 /* IdentityModels.swift in Sources */,
+				AA0000152900000100000001 /* LocationModels.swift in Sources */,
+				AA0000162900000100000001 /* MemoryModels.swift in Sources */,
+				AA0000172900000100000001 /* PermissionModels.swift in Sources */,
+				AA0000182900000100000001 /* ProactiveModels.swift in Sources */,
+				AA0000192900000100000001 /* ReminderModels.swift in Sources */,
+				AA0000202900000100000001 /* ScheduleDisruptionDiagnosticModels.swift in Sources */,
+				AA0000212900000100000001 /* ScheduleRecoveryModels.swift in Sources */,
+				AA0000222900000100000001 /* TaskModels.swift in Sources */,
+				AA0000232900000100000001 /* VoiceModels.swift in Sources */,
+				AA0000242900000100000001 /* WeeklyHorizonClientModels.swift in Sources */,
+				AA0000252900000100000001 /* WeeklyHorizonModels.swift in Sources */,
+				AA0000262900000100000001 /* AuroraAPIClient.swift in Sources */,
+				AA0000272900000100000001 /* CalendarProvider.swift in Sources */,
+				AA0000282900000100000001 /* ContactsProvider.swift in Sources */,
+				AA0000292900000100000001 /* DeepLinkNavigator.swift in Sources */,
+				AA0000302900000100000001 /* FileProvider.swift in Sources */,
+				AA0000312900000100000001 /* KeychainCredentialStore.swift in Sources */,
+				AA0000322900000100000001 /* LocationProvider.swift in Sources */,
+				AA0000332900000100000001 /* NotificationProvider.swift in Sources */,
+				AA0000342900000100000001 /* PhotoProvider.swift in Sources */,
+				AA0000352900000100000001 /* SpeechCaptureManager.swift in Sources */,
+				AA0000362900000100000001 /* SpeechOutputManager.swift in Sources */,
+				AA0000372900000100000001 /* VoiceConfirmationInterpreter.swift in Sources */,
+				AA0000382900000100000001 /* VoiceSessionCoordinator.swift in Sources */,
+				AA0000392900000100000001 /* AgendaViewModel.swift in Sources */,
+				AA0000402900000100000001 /* AssetViewModel.swift in Sources */,
+				AA0000412900000100000001 /* AssistantViewModel.swift in Sources */,
+				AA0000422900000100000001 /* CalendarViewModel.swift in Sources */,
+				AA0000432900000100000001 /* CommitmentViewModel.swift in Sources */,
+				AA0000442900000100000001 /* ContactViewModel.swift in Sources */,
+				AA0000452900000100000001 /* EventBriefingViewModel.swift in Sources */,
+				AA0000462900000100000001 /* LocationViewModel.swift in Sources */,
+				AA0000472900000100000001 /* MemoryViewModel.swift in Sources */,
+				AA0000482900000100000001 /* ReminderViewModel.swift in Sources */,
+				AA0000492900000100000001 /* ScheduleCoordinationViewModel.swift in Sources */,
+				AA0000502900000100000001 /* ScheduleDisruptionViewModel.swift in Sources */,
+				AA0000512900000100000001 /* ScheduleRecoveryViewModel.swift in Sources */,
+				AA0000522900000100000001 /* TaskViewModel.swift in Sources */,
+				AA0000532900000100000001 /* WeeklyHorizonViewModel.swift in Sources */,
+				AA0000542900000100000001 /* AgendaTimelineView.swift in Sources */,
+				AA0000552900000100000001 /* CalendarStatusView.swift in Sources */,
+				AA0000562900000100000001 /* CommitmentDetailView.swift in Sources */,
+				AA0000572900000100000001 /* CommitmentListView.swift in Sources */,
+				AA0000582900000100000001 /* ContactsStatusView.swift in Sources */,
+				AA0000592900000100000001 /* ContentView.swift in Sources */,
+				AA0000602900000100000001 /* CreateCommitmentSheet.swift in Sources */,
+				AA0000612900000100000001 /* CreateMemorySheet.swift in Sources */,
+				AA0000622900000100000001 /* CreateReminderSheet.swift in Sources */,
+				AA0000632900000100000001 /* CreateTaskSheet.swift in Sources */,
+				AA0000642900000100000001 /* DayPlanSheet.swift in Sources */,
+				AA0000652900000100000001 /* EveningReviewSheet.swift in Sources */,
+				AA0000662900000100000001 /* EventBriefingSheet.swift in Sources */,
+				AA0000672900000100000001 /* EventDebriefSheet.swift in Sources */,
+				AA0000682900000100000001 /* IdentitySetupView.swift in Sources */,
+				AA0000692900000100000001 /* LocationStatusView.swift in Sources */,
+				AA0000702900000100000001 /* MediaSelectionView.swift in Sources */,
+				AA0000712900000100000001 /* MemoryCandidateReviewSheet.swift in Sources */,
+				AA0000722900000100000001 /* MemoryDetailView.swift in Sources */,
+				AA0000732900000100000001 /* MemoryListView.swift in Sources */,
+				AA0000742900000100000001 /* ProactiveView.swift in Sources */,
+				AA0000752900000100000001 /* ReminderDetailView.swift in Sources */,
+				AA0000762900000100000001 /* ReminderListView.swift in Sources */,
+				AA0000772900000100000001 /* ScheduleCoordinationSheet.swift in Sources */,
+				AA0000782900000100000001 /* ScheduleDisruptionSheet.swift in Sources */,
+				AA0000792900000100000001 /* ScheduleRecoveryProposalSheet.swift in Sources */,
+				AA0000802900000100000001 /* TaskDetailView.swift in Sources */,
+				AA0000812900000100000001 /* TaskListView.swift in Sources */,
+				AA0000822900000100000001 /* VoiceInteractionBarView.swift in Sources */,
+				AA0000832900000100000001 /* WeeklyHorizonView.swift in Sources */,
+				AA0000842900000100000001 /* WeeklyPlanSheet.swift in Sources */,
+				AA0000852900000100000001 /* WeeklyRetrospectiveSheet.swift in Sources */,
+				AA0000862900000100000001 /* AuroraIntents.swift in Sources */,
+				AA0000872900000100000001 /* AuroraShortcutsProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		HH0000022900000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AT0000012900000100000001 /* AppleSystemIntegrationTests.swift in Sources */,
+				AT0000022900000100000001 /* DiurnalHorizonTests.swift in Sources */,
+				AT0000032900000100000001 /* EventBriefingTests.swift in Sources */,
+				AT0000042900000100000001 /* MockURLProtocol.swift in Sources */,
+				AT0000052900000100000001 /* ScheduleCoordinationTests.swift in Sources */,
+				AT0000062900000100000001 /* ScheduleRecoveryLifecycleTests.swift in Sources */,
+				AT0000072900000100000001 /* VoiceConversationTests.swift in Sources */,
+				AT0000082900000100000001 /* VoiceFoundationTests.swift in Sources */,
+				AT0000092900000100000001 /* WeeklyHorizonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		JJ0000012900000100000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF0000012900000100000001 /* ProjectAurora */;
+			targetProxy = KK0000012900000100000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		II0000012900000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		II0000022900000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		II0000032900000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ProjectAurora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.projectaurora.client;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		II0000042900000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ProjectAurora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.projectaurora.client;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		II0000052900000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.projectaurora.clientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectAurora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectAurora";
+			};
+			name = Debug;
+		};
+		II0000062900000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.projectaurora.clientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectAurora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectAurora";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000022900000100000001 /* Build configuration list for PBXProject "ProjectAurora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				II0000012900000100000001 /* Debug */,
+				II0000022900000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		GG0000012900000100000001 /* Build configuration list for PBXNativeTarget "ProjectAurora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				II0000032900000100000001 /* Debug */,
+				II0000042900000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		GG0000022900000100000001 /* Build configuration list for PBXNativeTarget "ProjectAuroraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				II0000052900000100000001 /* Debug */,
+				II0000062900000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 000000012900000100000001 /* Project object */;
+}
