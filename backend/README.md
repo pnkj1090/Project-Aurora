@@ -109,3 +109,4 @@ backend/.venv/bin/pytest backend/tests/test_phase5k1_security.py -v
 * **SSRF Guard**: The web client blocks loopback and private RFC-1918 subnets (`127.0.0.0/8`, `10.0.0.0/8`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.0.0/16`).
 * **Multi-User Isolation**: Every request is authenticated against provisioned credentials and scoped to `user_id`.
 * **Ephemeral Asset TTL**: Ingested binary attachments and photos are kept in memory with a hard 3600-second TTL before being expunged.
+

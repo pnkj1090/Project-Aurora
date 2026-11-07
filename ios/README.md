@@ -106,3 +106,4 @@ xcodebuild test \
   -scheme ProjectAurora \
   -destination 'platform=iOS Simulator,name=iPhone 15 Pro,OS=latest'
 ```
+
